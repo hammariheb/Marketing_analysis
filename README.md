@@ -5,16 +5,15 @@ Ce notebook a pour objectif principal d'accomplir les tâches suivantes :
 Etant donné que les dernières campagnes marketing n'ont pas été aussi efficaces qu'elles étaient censées l'être, j'ai analysé le jeu de données pour comprendre ce problème et proposer des solutions basées sur les données.
 
 ### Section 01: Analyse exploratoire des données
-#### Existence de valeurs nulles ou d'outliers ? Comment les manipulerez-vous ?
+#### Existence de valeurs nulles ou d'outliers ? Comment les manipuler ?
 
 Identification des variables contenant des valeurs nulles et des outliers.
-Proposition des stratégies de traitement.
 
 #### Quelles variables nécessitent des transformations ?
 
 Analyse des types de données et proposition des transformations si nécessaires.
 
-#### Quelles variables utiles pouvez-vous créer avec les données disponibles ?
+#### Quelles variables utiles créer avec les données disponibles ?
 
 Ingénierie de nouvelles variables à partir des données existantes pour enrichir l'analyse.
 
@@ -26,5 +25,5 @@ Utilisation de graphiques pour identifier et illustrer les schémas ou anomalies
 
 ### Visualiser les informations sur le jeu de données.
 ### Nettoyer les noms de colonnes.
-### Transformer les colonnes sélectionnées au format numérique :
+### Transformer les colonnes sélectionnées au format numérique
 ### Transformer le revenu en format float.
