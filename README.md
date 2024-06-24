@@ -1,29 +1,40 @@
-# Introduction
+# Projet d'Analyse Marketing
+
+## Introduction
+
 Ce notebook a pour objectif principal d'accomplir les tâches suivantes :
 
-## Objectif global :
-Etant donné que les dernières campagnes marketing n'ont pas été aussi efficaces qu'elles étaient censées l'être, j'ai analysé le jeu de données pour comprendre ce problème et proposer des solutions basées sur les données.
+### Objectif global :
+Étant donné que les dernières campagnes marketing n'ont pas été aussi efficaces qu'elles étaient censées l'être, j'ai analysé le jeu de données pour comprendre ce problème et proposer des solutions basées sur les données.
 
-### Section 01: Analyse exploratoire des données
-#### Existence de valeurs nulles ou d'outliers ? Comment les manipuler ?
+## Section 01: Analyse exploratoire des données
 
-Identification des variables contenant des valeurs nulles et des outliers.
+### Existence de valeurs nulles ou d'outliers ? Comment les manipuler ?
+Nous identifierons les variables contenant des valeurs nulles et des outliers, et proposerons des méthodes pour les gérer de manière appropriée.
 
-#### Quelles variables nécessitent des transformations ?
+### Quelles variables nécessitent des transformations ?
+Nous analyserons les types de données des variables et proposerons des transformations si nécessaires pour améliorer l'analyse des données.
 
-Analyse des types de données et proposition des transformations si nécessaires.
+### Quelles variables utiles créer avec les données disponibles ?
+Nous effectuerons de l'ingénierie de nouvelles variables à partir des données existantes pour enrichir notre compréhension et nos capacités d'analyse.
 
-#### Quelles variables utiles créer avec les données disponibles ?
+### Utilisation de graphiques
+Nous utiliserons des graphiques pour identifier et illustrer les schémas ou anomalies dans les données.
 
-Ingénierie de nouvelles variables à partir des données existantes pour enrichir l'analyse.
+## Dataset
 
-Utilisation de graphiques pour identifier et illustrer les schémas ou anomalies dans les données.
+Avant de commencer l'analyse, nous chargerons et examinerons le jeu de données, ainsi que procéderons à un nettoyage initial.
 
-
-# Dataset
-#### Avant de commencer l'analyse, nous chargerons et examinerons le jeu de données, ainsi que procéderons à un nettoyage initial.
-
-### Visualiser les informations sur le jeu de données.
-### Nettoyer les noms de colonnes.
+### Visualiser les informations sur le jeu de données
+### Nettoyer les noms de colonnes
 ### Transformer les colonnes sélectionnées au format numérique
-### Transformer le revenu en format float.
+### Transformer le revenu en format float
+
+## Nouvelle Analyse
+
+### Investigate anomaly:
+Nous avons observé une anomalie intéressante dans les données :
+
+Le nombre de visites sur le site web le mois dernier n'est pas corrélé positivement avec le nombre d'achats sur le site web. Au lieu de cela, il est corrélé positivement avec le nombre d'offres achetées, suggérant que les offres sont un moyen efficace de stimuler les achats sur le site web.
+
+Cette découverte nous amènera à explorer davantage les relations entre les variables et à proposer des recommandations stratégiques pour améliorer les futures campagnes marketing.
