@@ -1,1 +1,1 @@
-# Marketing_project_analysis
+# Marketing_project_exploratory_analysis
