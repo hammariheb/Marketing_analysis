@@ -3,7 +3,7 @@
 Ce projet vise à analyser l'efficacité des récentes campagnes marketing afin de comprendre leurs performances et de proposer des solutions basées sur les données.
 
 ## Objectif Général:
-En tant qu'analyste marketing, vous devez examiner les données fournies par le directeur marketing pour identifier les problèmes et suggérer des améliorations.
+Faire une étude exploratoire afin d'identifier les problèmes et suggérer des améliorations.
 
 ## Nettoyage et Transformation des Données
 Nettoyage des Noms de Colonnes :
